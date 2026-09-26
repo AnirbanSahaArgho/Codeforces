@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 46 | 13 |
+| 61 | 16 |
 
 ---
 
@@ -14,17 +14,20 @@
 
 - [*special](#special) (1)
 - [Uncategorized](#uncategorized) (1)
-- [brute force](#brute-force) (4)
-- [constructive algorithms](#constructive-algorithms) (4)
-- [dp](#dp) (1)
+- [brute force](#brute-force) (8)
+- [chinese remainder theorem](#chinese-remainder-theorem) (1)
+- [constructive algorithms](#constructive-algorithms) (5)
+- [dp](#dp) (2)
+- [games](#games) (1)
+- [geometry](#geometry) (1)
 - [graph matchings](#graph-matchings) (1)
-- [greedy](#greedy) (6)
-- [implementation](#implementation) (37)
-- [math](#math) (10)
-- [number theory](#number-theory) (1)
+- [greedy](#greedy) (7)
+- [implementation](#implementation) (44)
+- [math](#math) (18)
+- [number theory](#number-theory) (2)
 - [shortest paths](#shortest-paths) (1)
-- [sortings](#sortings) (1)
-- [strings](#strings) (10)
+- [sortings](#sortings) (3)
+- [strings](#strings) (11)
 
 ---
 
@@ -44,10 +47,20 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 189A | [Cut Ribbon](https://codeforces.com/contest/189/problem/A) | 1300 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/189/A%20-%20Cut%20Ribbon/solution.c) |
 | 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/231/A%20-%20Team/solution.c) |
 | 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.c) |
+| 268A | [Games](https://codeforces.com/contest/268/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/268/A%20-%20Games/solution.c) |
 | 271A | [Beautiful Year](https://codeforces.com/contest/271/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/271/A%20-%20Beautiful%20Year/solution.cpp) |
+| 875A | [Classroom Watch](https://codeforces.com/contest/875/problem/A) | 1200 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/875/A%20-%20Classroom%20Watch/solution.c) |
 | 2028A | [Alice's Adventures in ''Chess''](https://codeforces.com/contest/2028/problem/A) | 900 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/2028/A%20-%20Alice's%20Adventures%20in%20''Chess''/solution.c) |
+| 2034A | [King Keykhosrow's Mystery](https://codeforces.com/contest/2034/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/2034/A%20-%20King%20Keykhosrow's%20Mystery/solution.cpp) |
+
+### chinese remainder theorem
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2034A | [King Keykhosrow's Mystery](https://codeforces.com/contest/2034/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/2034/A%20-%20King%20Keykhosrow's%20Mystery/solution.cpp) |
 
 ### constructive algorithms
 
@@ -55,6 +68,7 @@
 |---|---------|------------|----------|
 | 148A | [Insomnia cure](https://codeforces.com/contest/148/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/148/A%20-%20Insomnia%20cure/solution.cpp) |
 | 266B | [Queue at the School](https://codeforces.com/contest/266/problem/B) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/266/B%20-%20Queue%20at%20the%20School/solution.c) |
+| 421A | [Pasha and Hamsters](https://codeforces.com/contest/421/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/421/A%20-%20Pasha%20and%20Hamsters/solution.c) |
 | 443A | [Anton and Letters](https://codeforces.com/contest/443/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/443/A%20-%20Anton%20and%20Letters/solution.cpp) |
 | 2013A | [Zhan's Blender](https://codeforces.com/contest/2013/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/2013/A%20-%20Zhan's%20Blender/solution.cpp) |
 
@@ -62,7 +76,20 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 189A | [Cut Ribbon](https://codeforces.com/contest/189/problem/A) | 1300 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/189/A%20-%20Cut%20Ribbon/solution.c) |
 | 996A | [Hit the Lottery](https://codeforces.com/contest/996/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/996/A%20-%20Hit%20the%20Lottery/solution.cpp) |
+
+### games
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2040A | [Game of Division](https://codeforces.com/contest/2040/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/2040/A%20-%20Game%20of%20Division/solution.cpp) |
+
+### geometry
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1928A | [Rectangle Cutting](https://codeforces.com/contest/1928/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/1928/A%20-%20Rectangle%20Cutting/solution.c) |
 
 ### graph matchings
 
@@ -74,6 +101,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/50/A%20-%20Domino%20piling/solution.c) |
 | 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/231/A%20-%20Team/solution.c) |
 | 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.c) |
 | 469A | [I Wanna Be the Guy](https://codeforces.com/contest/469/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/469/A%20-%20I%20Wanna%20Be%20the%20Guy/solution.cpp) |
@@ -92,6 +120,7 @@
 | 112A | [Petya and Strings](https://codeforces.com/contest/112/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/112/A%20-%20Petya%20and%20Strings/solution.c) |
 | 116A | [Tram](https://codeforces.com/contest/116/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/116/A%20-%20Tram/solution.cpp) |
 | 136A | [Presents](https://codeforces.com/contest/136/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/136/A%20-%20Presents/solution.c) |
+| 141A | [Amusing Joke](https://codeforces.com/contest/141/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/141/A%20-%20Amusing%20Joke/solution.c) |
 | 144A | [Arrival of the General](https://codeforces.com/contest/144/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/144/A%20-%20Arrival%20of%20the%20General/solution.cpp) |
 | 148A | [Insomnia cure](https://codeforces.com/contest/148/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/148/A%20-%20Insomnia%20cure/solution.cpp) |
 | 158A | [Next Round](https://codeforces.com/contest/158/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/158/A%20-%20Next%20Round/solution.cpp) |
@@ -105,44 +134,59 @@
 | 282A | [Bit++](https://codeforces.com/contest/282/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/282/A%20-%20Bit%2B%2B/solution.c) |
 | 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.c) |
 | 344A | [Magnets](https://codeforces.com/contest/344/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/344/A%20-%20Magnets/solution.cpp) |
+| 421A | [Pasha and Hamsters](https://codeforces.com/contest/421/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/421/A%20-%20Pasha%20and%20Hamsters/solution.c) |
+| 427A | [Police Recruits](https://codeforces.com/contest/427/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/427/A%20-%20Police%20Recruits/solution.c) |
 | 443A | [Anton and Letters](https://codeforces.com/contest/443/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/443/A%20-%20Anton%20and%20Letters/solution.cpp) |
 | 467A | [George and Accommodation](https://codeforces.com/contest/467/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/467/A%20-%20George%20and%20Accommodation/solution.c) |
 | 469A | [I Wanna Be the Guy](https://codeforces.com/contest/469/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/469/A%20-%20I%20Wanna%20Be%20the%20Guy/solution.cpp) |
 | 486A | [Calculating Function](https://codeforces.com/contest/486/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/486/A%20-%20Calculating%20Function/solution.cpp) |
+| 510A | [Fox And Snake](https://codeforces.com/contest/510/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/510/A%20-%20Fox%20And%20Snake/solution.cpp) |
 | 520A | [Pangram](https://codeforces.com/contest/520/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/520/A%20-%20Pangram/solution.cpp) |
 | 677A | [Vanya and Fence](https://codeforces.com/contest/677/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/677/A%20-%20Vanya%20and%20Fence/solution.c) |
 | 705A | [Hulk](https://codeforces.com/contest/705/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/705/A%20-%20Hulk/solution.c) |
+| 723A | [The New Year: Meeting Friends](https://codeforces.com/contest/723/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/723/A%20-%20The%20New%20Year%3A%20Meeting%20Friends/solution.c) |
 | 734A | [Anton and Danik](https://codeforces.com/contest/734/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/734/A%20-%20Anton%20and%20Danik/solution.cpp) |
 | 749A | [Bachgold Problem](https://codeforces.com/contest/749/problem/A) | 800 | [Python 3](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/749/A%20-%20Bachgold%20Problem/solution.py) |
 | 785A | [Anton and Polyhedrons](https://codeforces.com/contest/785/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/785/A%20-%20Anton%20and%20Polyhedrons/solution.c) |
 | 791A | [Bear and Big Brother](https://codeforces.com/contest/791/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/791/A%20-%20Bear%20and%20Big%20Brother/solution.c) |
 | 977A | [Wrong Subtraction](https://codeforces.com/contest/977/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/977/A%20-%20Wrong%20Subtraction/solution.cpp) |
 | 1030A | [In Search of an Easy Problem](https://codeforces.com/contest/1030/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/1030/A%20-%20In%20Search%20of%20an%20Easy%20Problem/solution.c) |
+| 1352A | [Sum of Round Numbers](https://codeforces.com/contest/1352/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/1352/A%20-%20Sum%20of%20Round%20Numbers/solution.cpp) |
 | 1999A | [A+B Again?](https://codeforces.com/contest/1999/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/1999/A%20-%20A%2BB%20Again%3F/solution.c) |
 | 2014A | [Robin Helps](https://codeforces.com/contest/2014/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/2014/A%20-%20Robin%20Helps/solution.cpp) |
 | 2028A | [Alice's Adventures in ''Chess''](https://codeforces.com/contest/2028/problem/A) | 900 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/2028/A%20-%20Alice's%20Adventures%20in%20''Chess''/solution.c) |
 | 2037A | [Twice](https://codeforces.com/contest/2037/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/2037/A%20-%20Twice/solution.c) |
+| 2050A | [Line Breaks](https://codeforces.com/contest/2050/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/2050/A%20-%20Line%20Breaks/solution.cpp) |
 
 ### math
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1A | [Theatre Square](https://codeforces.com/contest/1/problem/A) | 1000 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/1/A%20-%20Theatre%20Square/solution.c) |
+| 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/50/A%20-%20Domino%20piling/solution.c) |
 | 148A | [Insomnia cure](https://codeforces.com/contest/148/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/148/A%20-%20Insomnia%20cure/solution.cpp) |
 | 200B | [Drinks](https://codeforces.com/contest/200/problem/B) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/200/B%20-%20Drinks/solution.c) |
 | 486A | [Calculating Function](https://codeforces.com/contest/486/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/486/A%20-%20Calculating%20Function/solution.cpp) |
 | 617A | [Elephant](https://codeforces.com/contest/617/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/617/A%20-%20Elephant/solution.cpp) |
+| 723A | [The New Year: Meeting Friends](https://codeforces.com/contest/723/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/723/A%20-%20The%20New%20Year%3A%20Meeting%20Friends/solution.c) |
 | 749A | [Bachgold Problem](https://codeforces.com/contest/749/problem/A) | 800 | [Python 3](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/749/A%20-%20Bachgold%20Problem/solution.py) |
+| 875A | [Classroom Watch](https://codeforces.com/contest/875/problem/A) | 1200 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/875/A%20-%20Classroom%20Watch/solution.c) |
 | 1328A | [Divisibility Problem](https://codeforces.com/contest/1328/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/1328/A%20-%20Divisibility%20Problem/solution.c) |
+| 1335A | [Candies and Two Sisters](https://codeforces.com/contest/1335/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/1335/A%20-%20Candies%20and%20Two%20Sisters/solution.cpp) |
+| 1352A | [Sum of Round Numbers](https://codeforces.com/contest/1352/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/1352/A%20-%20Sum%20of%20Round%20Numbers/solution.cpp) |
+| 1928A | [Rectangle Cutting](https://codeforces.com/contest/1928/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/1928/A%20-%20Rectangle%20Cutting/solution.c) |
 | 1999A | [A+B Again?](https://codeforces.com/contest/1999/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/1999/A%20-%20A%2BB%20Again%3F/solution.c) |
 | 2013A | [Zhan's Blender](https://codeforces.com/contest/2013/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/2013/A%20-%20Zhan's%20Blender/solution.cpp) |
 | 2028A | [Alice's Adventures in ''Chess''](https://codeforces.com/contest/2028/problem/A) | 900 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/2028/A%20-%20Alice's%20Adventures%20in%20''Chess''/solution.c) |
+| 2034A | [King Keykhosrow's Mystery](https://codeforces.com/contest/2034/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/2034/A%20-%20King%20Keykhosrow's%20Mystery/solution.cpp) |
+| 2040A | [Game of Division](https://codeforces.com/contest/2040/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/2040/A%20-%20Game%20of%20Division/solution.cpp) |
 
 ### number theory
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 749A | [Bachgold Problem](https://codeforces.com/contest/749/problem/A) | 800 | [Python 3](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/749/A%20-%20Bachgold%20Problem/solution.py) |
+| 2034A | [King Keykhosrow's Mystery](https://codeforces.com/contest/2034/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/2034/A%20-%20King%20Keykhosrow's%20Mystery/solution.cpp) |
 
 ### shortest paths
 
@@ -154,7 +198,9 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 141A | [Amusing Joke](https://codeforces.com/contest/141/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/141/A%20-%20Amusing%20Joke/solution.c) |
 | 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.c) |
+| 723A | [The New Year: Meeting Friends](https://codeforces.com/contest/723/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/723/A%20-%20The%20New%20Year%3A%20Meeting%20Friends/solution.c) |
 
 ### strings
 
@@ -164,6 +210,7 @@
 | 59A | [Word](https://codeforces.com/contest/59/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/59/A%20-%20Word/solution.cpp) |
 | 71A | [Way Too Long Words](https://codeforces.com/contest/71/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/71/A%20-%20Way%20Too%20Long%20Words/solution.c) |
 | 112A | [Petya and Strings](https://codeforces.com/contest/112/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/112/A%20-%20Petya%20and%20Strings/solution.c) |
+| 141A | [Amusing Joke](https://codeforces.com/contest/141/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/141/A%20-%20Amusing%20Joke/solution.c) |
 | 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.c) |
 | 281A | [Word Capitalization](https://codeforces.com/contest/281/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/281/A%20-%20Word%20Capitalization/solution.c) |
 | 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [GNU C11](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.c) |
