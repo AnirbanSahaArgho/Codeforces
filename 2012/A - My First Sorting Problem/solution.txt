@@ -1,0 +1,17 @@
+fun main() {
+    // Read the number of test cases
+    val t = readLine()!!.toInt()
+ 
+    // Process each test case
+    repeat(t) {
+        // Read integers x and y
+        val (x, y) = readLine()!!.split(" ").map { it.toInt() }
+        
+        // Compute minimum and maximum
+        val minimum = minOf(x, y)
+        val maximum = maxOf(x, y)
+        
+        // Print result
+        println("$minimum $maximum")
+    }
+}
