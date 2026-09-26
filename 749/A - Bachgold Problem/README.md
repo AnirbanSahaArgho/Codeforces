@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/749/problem/A" target="_blank" rel="noopener noreferrer">749A — Bachgold Problem</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 800 |
+| **Language** | Python 3 |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 749A](https://codeforces.com/contest/749/problem/A) |
+
+## Topics
+`greedy` `implementation` `math` `number theory`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Bachgold Problem</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Bachgold problem is very easy to formulate. Given a positive integer <span class="tex-span"><i>n</i></span> represent it as a sum of <span class="tex-font-style-bf">maximum possible</span> number of prime numbers. One can prove that such representation exists for any integer greater than <span class="tex-span">1</span>.</p><p>Recall that integer <span class="tex-span"><i>k</i></span> is called <span class="tex-font-style-underline">prime</span> if it is greater than <span class="tex-span">1</span> and has exactly two positive integer divisors — <span class="tex-span">1</span> and <span class="tex-span"><i>k</i></span>. </p></div><div class="input-specification"><div class="section-title">Input</div><p>The only line of the input contains a single integer <span class="tex-span"><i>n</i></span> (<span class="tex-span">2 ≤ <i>n</i> ≤ 100 000</span>).</p></div><div class="output-specification"><div class="section-title">Output</div><p>The first line of the output contains a single integer <span class="tex-span"><i>k</i></span> — maximum possible number of primes in representation.</p><p>The second line should contain <span class="tex-span"><i>k</i></span> primes with their sum equal to <span class="tex-span"><i>n</i></span>. You can print them in any order. If there are several optimal solution, print any of them.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id004740701059275333" id="id005216422876940311" class="input-output-copier">Copy</div></div><pre id="id004740701059275333">5<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0029238638057153155" id="id0002536037614103237" class="input-output-copier">Copy</div></div><pre id="id0029238638057153155">2<br>2 3<br></pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id007470401541249074" id="id00618581662828514" class="input-output-copier">Copy</div></div><pre id="id007470401541249074">6<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0003556348103524454" id="id0016156485984316682" class="input-output-copier">Copy</div></div><pre id="id0003556348103524454">3<br>2 2 2<br></pre></div></div></div>
