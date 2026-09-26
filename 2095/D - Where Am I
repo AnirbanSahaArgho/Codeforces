@@ -1,17 +1,7 @@
-<h2><a href="https://codeforces.com/contest/2095/problem/D" target="_blank" rel="noopener noreferrer">2095D — Where Am I?</a></h2>
-
-| | |
-|---|---|
-| **Difficulty** | Unrated |
-| **Language** | C++20 (GCC 13-64) |
-| **Verdict** | ✅ Accepted |
-| **Problem Link** | [Codeforces 2095D](https://codeforces.com/contest/2095/problem/D) |
-
-## Topics
-`*special` `geometry`
-
----
-
-## Problem Statement
-
-<div class="header"><div class="title">D. Where Am I?</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><center> <img class="tex-graphics" src="https://espresso.codeforces.com/619b96136a3d1b4925ce844292b572bc524d5730.png" style="max-width: 100.0%;max-height: 100.0%;"> </center></div><div class="output-specification"><div class="section-title">Output</div><p>Output two real numbers <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-1"><span class="MJXp-mo" id="MJXp-Span-2" style="margin-left: 0em; margin-right: 0.111em;">−</span><span class="MJXp-mn" id="MJXp-Span-3">90</span><span class="MJXp-mo" id="MJXp-Span-4" style="margin-left: 0.333em; margin-right: 0.333em;">≤</span><span class="MJXp-mi MJXp-italic" id="MJXp-Span-5">a</span><span class="MJXp-mo" id="MJXp-Span-6" style="margin-left: 0.333em; margin-right: 0.333em;">≤</span><span class="MJXp-mn" id="MJXp-Span-7">90</span></span></span>$-90 \leq a \leq 90$ and <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-8"><span class="MJXp-mo" id="MJXp-Span-9" style="margin-left: 0em; margin-right: 0.111em;">−</span><span class="MJXp-mn" id="MJXp-Span-10">180</span><span class="MJXp-mo" id="MJXp-Span-11" style="margin-left: 0.333em; margin-right: 0.333em;">≤</span><span class="MJXp-mi MJXp-italic" id="MJXp-Span-12">b</span><span class="MJXp-mo" id="MJXp-Span-13" style="margin-left: 0.333em; margin-right: 0.333em;">≤</span><span class="MJXp-mn" id="MJXp-Span-14">180</span></span></span>$-180 \leq b \leq 180$, with up to 6 digits after the decimal point.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id00710887269802328" id="id008971209722875656" class="input-output-copier">Copy</div></div><pre id="id00710887269802328">​</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id002806614769573955" id="id008588958337475515" class="input-output-copier">Copy</div></div><pre id="id002806614769573955">​</pre></div></div></div>
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    cout<<36.104300<<" "<<-115.172835<<endl;
+    return 0;
+}
