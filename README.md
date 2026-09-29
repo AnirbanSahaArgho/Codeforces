@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 194 | 26 |
+| 195 | 26 |
 
 ---
 
@@ -27,7 +27,7 @@
 - [geometry](#geometry) (4)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (45)
+- [greedy](#greedy) (46)
 - [implementation](#implementation) (109)
 - [interactive](#interactive) (1)
 - [math](#math) (71)
@@ -259,6 +259,7 @@
 | 2117A | [False Alarm](https://codeforces.com/contest/2117/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/2117/A%20-%20False%20Alarm/solution.cpp) |
 | 2118A | [Equal Subsequences](https://codeforces.com/contest/2118/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/2118/A%20-%20Equal%20Subsequences/solution.cpp) |
 | 2136A | [In the Dream](https://codeforces.com/contest/2136/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/2136/A%20-%20In%20the%20Dream/solution.cpp) |
+| 2266A | [Good Contest](https://codeforces.com/contest/2266/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/AnirbanSahaArgho/Codeforces/blob/HEAD/2266/A%20-%20Good%20Contest/solution.cpp) |
 
 ### implementation
 
